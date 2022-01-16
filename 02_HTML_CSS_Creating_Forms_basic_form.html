@@ -9,15 +9,54 @@
 
 <body>
 <h1>FORM</h1>
-<form action="" id="questions" method="post" name="quiestions">
+<form action="" id="questions" method="post" name="questions">
     <input type="text" name="name" id="name"><label for="name">Name</label></br>
     <input type="email" name="email" id="email"><label for="email">Email</label></br>
     <input type="url" name="website" id="website"><label for="website">Website</label></br>
     <input type="number" name="number" id="number" min="0" max="100" step="any"><label for="number">Number</label></br>
     <input type="date" name="birthday" id="birthday" max="today"><label for="birthday">Birthday</label></br>
     <input type="time" name="time" id="time"><label for="time">Time</label></br>
-    <input type="tel" name="phone" id="phone"><label for="phone">Phone</label></br>
-    <input type="submit">
-</form>
+    <input type="tel" name="phone" id="phone"><label for="phone">Phone</label></br></br></br>
+
+    <fieldset>
+        <legend>Select one element:</legend>
+            <input type="radio" name="favcolor" value="blue"><label for="blue">Blue</label><br>
+            <input type="radio" name="favcolor" value="red"><label for="blue">Red</label><br>
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Select multiple:</legend>
+            <input type="checkbox" name="favcolor" value="blue"><label for="blue">Blue</label><br>
+            <input type="checkbox" name="favcolor" value="red"><label for="blue">Red</label><br>
+    </fieldset><br>
+
+    <label for="Lista_desplegable">Elige</label>
+    <select name="Lista_desplegable" id="Lista_desplegable" multiple size="2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    </select><br><br>
+
+    <form action="" id="questions" method="post" name="questions">
+        <label for="texto">Escribe</label>
+        <textarea id="texto" name="texto"></textarea><br><br>
+
+        <label for="color">Color</label>
+        <input type="color" name="color"  id="color"><br><br>
+
+        <label for="resume">Resume</label>
+        <input type="file" name="resume"  id="resume" accept="*.pdf"><br><br>
+
+        <label for="clave">Clave</label>
+        <input type="password" name="password"  id="password">
+        <input type="hidden" name="1234"  id="tracking"><br>
+        <input type="range" min="1" max="10" step="1"><br><br>
+
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search"><br><br>
+    </form>
+
+    <input type="submit"><br><br><br>
+
 </body> 
 </html>  
