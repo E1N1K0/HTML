@@ -5,12 +5,13 @@
     <title>Page title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-sclae=1">
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
 <h1>FORM</h1>
 <form action="" id="questions" method="post" name="questions">
-    <input type="text" name="name" id="name"><label for="name">Name</label></br>
+    <input type="text" name="name" id="name" maxlength="5" required><label for="name">Name</label></br>
     <input type="email" name="email" id="email"><label for="email">Email</label></br>
     <input type="url" name="website" id="website"><label for="website">Website</label></br>
     <input type="number" name="number" id="number" min="0" max="100" step="any"><label for="number">Number</label></br>
@@ -38,6 +39,7 @@
     </select><br><br>
 
     <form action="" id="questions" method="post" name="questions">
+
         <label for="texto">Escribe</label>
         <textarea id="texto" name="texto"></textarea><br><br>
 
@@ -54,9 +56,14 @@
 
         <label for="search">Search</label>
         <input type="search" name="search" id="search"><br><br>
+
+
+        <input type="submit" value="Submit"><br><br>
+        <input type="reset" value="Reset"><br><br>
+        <input type="button" value="Button"><br><br>
+        <button type="submit">Place <strong>order</strong></button><br><br>
+        <input type="image" src="bird.jpg" alt="bird" width="130"><br><br>
+        
     </form>
-
-    <input type="submit"><br><br><br>
-
 </body> 
 </html>  
