@@ -1,7 +1,7 @@
 # HTML_EXAMPLES-E1N1K0
 
 ### ABSTRACT = RESUMEN:
-  Different HTML & CSS short codes that I have used and found them interesting.<br>
+  Various HTML & CSS short codes that I have used and found interesting.<br>
   Distintos codigos cortos de HTML & CSS que he utilizado y me parecieron interesantes.
 
 

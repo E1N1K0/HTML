@@ -1,32 +1,47 @@
+/* 
 button, input, select, textarea {
     font-family: inherit;
     font-size: 100%;
     border-radius: 6px;
 }
+*/
 
-input, textarea, select {
+/* Homologar atributos de escrituras (textarea es escribe).
+input, 
+textarea {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+
+/* Aplica a la lista de elementos afectados. 
+{Aquí utilizo los atributos}
+*/
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="tel"],
+input[type="password"], 
+input[type="search"], 
+textarea,  
+label {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: middle;
+    width: 13em;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 5px 5px 5px 0;
+    color: rgb(121, 48, 19);
+    background-color: rgb(226, 226, 231);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-input[type="date"] {
-    font-size: 1em;
-    color: blue;
-}
-label {color: green;
-    font-weight: bold;
-}
-
-input[type="text"], input[type="url"], input[type="email"], input[type="tel"], input[type="password"], input[type="search"], input[type="number"], input[type="date"], input[type="time"], textarea,  label {
-    color: rgb(51, 61, 74);
-    width: 12em;
-    padding: 5px;
-    margin: 5px 5px 5px 0;
-    vertical-align: middle;
-    border-radius: 7px;
-    background-color: rgb(231, 226, 226);
-}
-
+/* 
 input[type="checkbox"] + label {
     border: 2px solid #138d75;
     background-color: indianred;
@@ -44,6 +59,7 @@ input[type="checkbox"]:checked + label {
     width: 5em;
     text-align: center;
 }
+*/
 
 input[type="button"]:focus {
     background-color: rgb(255, 113, 47);
