@@ -1,4 +1,4 @@
-# HTML_ESTRUCTURA_BASE-E1N1K0
+# HTML_BOTONES-E1N1K0
 
 ## ABSTRACT = RESUMEN:
 	HTML & CSS codebase to get you started.<br>
@@ -6,7 +6,7 @@
 
 
 ## INDEX = INDICE:
-	HTML 01 Estructura base.html: Con comentarios y tips utiles.
+	02_HTML_CSS_Creating_Forms_basic_form: Con comentarios y tips utiles.
 	styles.css: Lo  básico.
 
 ## Where users can get help with your project = Donde los usuarios pueden encontrar ayuda con el proyecto:
