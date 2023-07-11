@@ -1,0 +1,33 @@
+/* https://www.uv.es/jac/guia/estilo2.htm*/
+
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: black
+
+  }
+
+  .encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(170, 82, 82);
+  }
+  
+
+/* 
+h1 {
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: middle;
+    width: 13em;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 5px 5px 5px 0;
+    color: rgb(121, 48, 19);
+    background-color: rgb(226, 226, 231);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+
